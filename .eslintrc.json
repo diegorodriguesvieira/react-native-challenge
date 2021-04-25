@@ -5,9 +5,7 @@
     "node": true,
     "jest": true
   },
-  "extends": [
-    "eslint:recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
@@ -16,11 +14,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "prettier",
-    "react-native"
-  ],
+  "plugins": ["react", "prettier", "react-native"],
   "globals": {
     "__DEV__": false
   }

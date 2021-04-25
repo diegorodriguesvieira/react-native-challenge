@@ -1,670 +1,799 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Nodes /> should match snapshot 1`] = `
-<View>
-  <Text
-    style={
-      Array [
-        Object {},
-        Object {
-          "fontSize": 34,
-          "letterSpacing": 0.25,
-          "lineHeight": 34,
-        },
-        Object {
-          "color": "rgba(0, 0, 0, 0.87)",
-          "marginBottom": 0,
-          "textAlign": "left",
-        },
-        Object {
-          "marginLeft": 8,
-          "marginTop": 35,
-        },
-      ]
-    }
-    type={4}
-  >
-    Nodes
-  </Text>
-  <View
-    accessible={true}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "opacity": 1,
+<RCTScrollView>
+  <View>
+    <Text
+      style={
+        Array [
+          Object {},
+          Object {
+            "fontSize": 34,
+            "letterSpacing": 0.25,
+            "lineHeight": 34,
+          },
+          Object {
+            "color": "rgba(0, 0, 0, 0.87)",
+            "marginBottom": 0,
+            "textAlign": "left",
+          },
+          Object {
+            "fontWeight": "700",
+            "marginLeft": 30,
+            "marginTop": 45,
+          },
+        ]
       }
-    }
-  >
+      type={4}
+    >
+      Nodes
+    </Text>
     <View
-      elevation={2}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 2,
-          "margin": 8,
-          "padding": 8,
-          "shadowColor": "#000",
-          "shadowOffset": Object {
-            "height": 2,
-            "width": 0,
-          },
-          "shadowOpacity": 0.23,
-          "shadowRadius": 2.62,
+          "opacity": 1,
         }
       }
     >
-      <Text
+      <View
+        elevation={2}
         style={
-          Array [
-            Object {},
-            Object {
-              "fontSize": 20,
-              "fontWeight": "500",
-              "letterSpacing": 0.15,
-              "lineHeight": 20,
-            },
-            Object {
-              "color": "rgba(0, 0, 0, 0.87)",
-              "marginBottom": 0,
-              "textAlign": "left",
-            },
-            Object {
-              "marginTop": 5,
-            },
-          ]
-        }
-        text="Node 1"
-        type={6}
-      >
-        Node 1
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {},
-            Object {
-              "fontSize": 12,
-              "letterSpacing": 0.4,
-              "lineHeight": 12,
-            },
-            Object {
-              "color": "#929aab",
-              "marginBottom": 0,
-              "textAlign": "left",
-            },
-            Object {
-              "marginTop": 5,
-            },
-          ]
-        }
-        text="https://thawing-springs-53971.herokuapp.com"
-      >
-        https://thawing-springs-53971.herokuapp.com
-      </Text>
-      <Text
-        allowFontScaling={false}
-        pointerEvents="none"
-        style={
-          Array [
-            Object {
-              "color": "#929aab",
-              "fontSize": 24,
-            },
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-              },
-              Object {
-                "position": "absolute",
-                "right": 10,
-                "top": 5,
-              },
-            ],
-            Object {
-              "fontFamily": "Material Icons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-            Object {},
-          ]
-        }
-        theme={
           Object {
-            "action": Object {
-              "active": "rgba(0, 0, 0, 0.54)",
-              "disabled": "rgba(0, 0, 0, 0.26)",
-              "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+            "backgroundColor": "white",
+            "borderRadius": 2,
+            "marginHorizontal": 30,
+            "marginVertical": 10,
+            "padding": 10,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
             },
-            "background": Object {
-              "default": "#fafafa",
-            },
-            "bodyText": Object {
-              "fontSize": 16,
-              "letterSpacing": 0.5,
-              "lineHeight": 16,
-            },
-            "bodyTextTwo": Object {
-              "fontSize": 14,
-              "letterSpacing": 0.25,
-              "lineHeight": 14,
-            },
-            "button": Object {
-              "borderRadius": 4,
-              "padding": 8,
-            },
-            "buttonText": Object {
-              "color": "#2196f3",
-              "fontSize": 14,
-              "fontWeight": "500",
-              "letterSpacing": 0.5,
-            },
-            "caption": Object {
-              "fontSize": 12,
-              "letterSpacing": 0.4,
-              "lineHeight": 12,
-            },
-            "containedButton": Object {
-              "backgroundColor": "#2196f3",
-              "paddingHorizontal": 16,
-            },
-            "divider": Object {
-              "backgroundColor": "rgba(0,0,0,.12)",
-              "width": "100%",
-            },
-            "drawer": Object {
-              "backgroundColor": "white",
-              "borderRightColor": "rgba(0,0,0,.12)",
-              "borderRightWidth": 1,
-              "borderStyle": "solid",
-              "position": "absolute",
-              "zIndex": 100,
-            },
-            "drawerHeader": Object {
-              "borderBottomColor": "rgba(0,0,0,.12)",
-              "borderBottomWidth": 0.5,
-              "paddingHorizontal": 16,
-              "paddingVertical": 18,
-            },
-            "drawerHeaderAvatarContainer": Object {
-              "marginBottom": 20,
-            },
-            "drawerHeaderSubtitle": Object {
-              "color": "rgba(0,0,0,.67)",
-              "fontSize": 12,
-              "marginTop": 4,
-            },
-            "drawerHeaderTitle": Object {
-              "color": "rgba(0,0,0,.87)",
-              "fontSize": 20,
-              "fontWeight": "500",
-            },
-            "drawerItem": Object {
-              "alignItems": "center",
-              "backgroundColor": "transparent",
-              "borderRadius": 4,
-              "flexDirection": "row",
-              "height": 40,
-              "paddingHorizontal": 8,
-              "zIndex": 10,
-            },
-            "drawerItemActive": Object {
-              "backgroundColor": "rgba(30, 136, 229, .2)",
-              "color": "#1e88e5",
-            },
-            "drawerItemIcon": Object {
-              "color": "grey",
-              "size": 20,
-            },
-            "drawerItemText": Object {
-              "color": "rgba(0,0,0,.87)",
-              "fontSize": 14,
-              "fontWeight": "500",
-              "zIndex": 10,
-            },
-            "error": Object {
-              "dark": "#d32f2f",
-              "light": "#e57373",
-              "main": "#f44336",
-            },
-            "headingFive": Object {
-              "fontSize": 24,
-              "lineHeight": 24,
-            },
-            "headingFour": Object {
-              "fontSize": 34,
-              "letterSpacing": 0.25,
-              "lineHeight": 34,
-            },
-            "headingOne": Object {
-              "fontSize": 96,
-              "fontWeight": "300",
-              "letterSpacing": -1.5,
-              "lineHeight": 96,
-            },
-            "headingSix": Object {
-              "fontSize": 20,
-              "fontWeight": "500",
-              "letterSpacing": 0.15,
-              "lineHeight": 20,
-            },
-            "headingThree": Object {
-              "fontSize": 48,
-              "lineHeight": 48,
-            },
-            "headingTwo": Object {
-              "fontSize": 60,
-              "fontWeight": "300",
-              "letterSpacing": -0.5,
-              "lineHeight": 60,
-            },
-            "outlinedButton": Object {
-              "borderColor": "rgba(0,0,0,.29)",
-              "borderWidth": 0.5,
-              "paddingHorizontal": 16,
-            },
-            "overline": Object {
-              "fontSize": 10,
-              "letterSpacing": 1.5,
-              "lineHeight": 10,
-              "textTransform": "uppercase",
-            },
-            "paper": Object {
-              "backgroundColor": "white",
-              "borderRadius": 2,
-            },
-            "primary": Object {
-              "dark": "#005cb2",
-              "light": "#6ab7ff",
-              "main": "#1e88e5",
-            },
-            "searchBar": Object {
-              "alignItems": "center",
-              "backgroundColor": "rgba(255,255,255,1)",
-              "flexDirection": "row",
-              "height": 56,
-              "paddingHorizontal": 16,
-              "width": "100%",
-            },
-            "searchBarNavigationIcon": Object {
-              "color": "black",
-              "size": 24,
-            },
-            "searchBarcloseIcon": Object {
-              "color": "black",
-              "size": 24,
-            },
-            "searchInput": Object {
-              "flex": 1,
-              "fontSize": 16,
-              "height": 30,
-              "marginLeft": 8,
-              "shadowColor": "#000",
-              "shadowOffset": Object {
-                "height": 0,
-                "width": 0,
-              },
-              "shadowOpacity": 0,
-              "shadowRadius": 1,
-            },
-            "secondary": Object {
-              "dark": "#c51162",
-              "light": "#ff4081",
-              "main": "#f50057",
-            },
-            "subtitleOne": Object {
-              "fontSize": 16,
-              "letterSpacing": 0.15,
-              "lineHeight": 16,
-            },
-            "subtitleTwo": Object {
-              "fontSize": 14,
-              "fontWeight": "500",
-              "letterSpacing": 0.1,
-              "lineHeight": 14,
-            },
-            "text": Object {},
-            "textColor": Object {
-              "disabled": "rgba(0, 0, 0, 0.38)",
-              "hint": "rgba(0, 0, 0, 0.38)",
-              "primary": "rgba(0, 0, 0, 0.87)",
-              "secondary": "rgba(0, 0, 0, 0.54)",
-            },
+            "shadowOpacity": 0.23,
+            "shadowRadius": 2.62,
           }
         }
       >
-        
-      </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingEnd": 30,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {},
+                undefined,
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "marginBottom": 0,
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#263238",
+                  "marginTop": 5,
+                },
+              ]
+            }
+            text="Node 1"
+            type={6}
+          >
+            Node 1
+          </Text>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#D94238",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Entypo",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {},
+                  undefined,
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "marginBottom": 0,
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "#8a9094",
+                    "fontSize": 12,
+                    "left": -7,
+                    "letterSpacing": 1,
+                  },
+                ]
+              }
+              text="OFFLINE"
+              type={6}
+            >
+              OFFLINE
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {},
+              Object {
+                "fontSize": 12,
+                "letterSpacing": 0.4,
+                "lineHeight": 12,
+              },
+              Object {
+                "color": "#929aab",
+                "marginBottom": 0,
+                "textAlign": "left",
+              },
+              Object {
+                "color": "#8a9094",
+                "marginTop": 5,
+              },
+            ]
+          }
+          text="https://thawing-springs-53971.herokuapp.com"
+        >
+          https://thawing-springs-53971.herokuapp.com
+        </Text>
+        <Text
+          allowFontScaling={false}
+          pointerEvents="none"
+          style={
+            Array [
+              Object {
+                "color": "#8a9094",
+                "fontSize": 24,
+              },
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "position": "absolute",
+                  "right": 10,
+                  "top": 20,
+                },
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          theme={
+            Object {
+              "action": Object {
+                "active": "rgba(0, 0, 0, 0.54)",
+                "disabled": "rgba(0, 0, 0, 0.26)",
+                "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                "hover": "rgba(0, 0, 0, 0.08)",
+                "hoverOpacity": 0.08,
+                "selected": "rgba(0, 0, 0, 0.14)",
+              },
+              "background": Object {
+                "default": "#fafafa",
+              },
+              "bodyText": Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+                "lineHeight": 16,
+              },
+              "bodyTextTwo": Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 14,
+              },
+              "button": Object {
+                "borderRadius": 4,
+                "padding": 8,
+              },
+              "buttonText": Object {
+                "color": "#2196f3",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "letterSpacing": 0.5,
+              },
+              "caption": Object {
+                "fontSize": 12,
+                "letterSpacing": 0.4,
+                "lineHeight": 12,
+              },
+              "containedButton": Object {
+                "backgroundColor": "#2196f3",
+                "paddingHorizontal": 16,
+              },
+              "divider": Object {
+                "backgroundColor": "rgba(0,0,0,.12)",
+                "width": "100%",
+              },
+              "drawer": Object {
+                "backgroundColor": "white",
+                "borderRightColor": "rgba(0,0,0,.12)",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "position": "absolute",
+                "zIndex": 100,
+              },
+              "drawerHeader": Object {
+                "borderBottomColor": "rgba(0,0,0,.12)",
+                "borderBottomWidth": 0.5,
+                "paddingHorizontal": 16,
+                "paddingVertical": 18,
+              },
+              "drawerHeaderAvatarContainer": Object {
+                "marginBottom": 20,
+              },
+              "drawerHeaderSubtitle": Object {
+                "color": "rgba(0,0,0,.67)",
+                "fontSize": 12,
+                "marginTop": 4,
+              },
+              "drawerHeaderTitle": Object {
+                "color": "rgba(0,0,0,.87)",
+                "fontSize": 20,
+                "fontWeight": "500",
+              },
+              "drawerItem": Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderRadius": 4,
+                "flexDirection": "row",
+                "height": 40,
+                "paddingHorizontal": 8,
+                "zIndex": 10,
+              },
+              "drawerItemActive": Object {
+                "backgroundColor": "rgba(30, 136, 229, .2)",
+                "color": "#1e88e5",
+              },
+              "drawerItemIcon": Object {
+                "color": "grey",
+                "size": 20,
+              },
+              "drawerItemText": Object {
+                "color": "rgba(0,0,0,.87)",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "zIndex": 10,
+              },
+              "error": Object {
+                "dark": "#d32f2f",
+                "light": "#e57373",
+                "main": "#f44336",
+              },
+              "headingFive": Object {
+                "fontSize": 24,
+                "lineHeight": 24,
+              },
+              "headingFour": Object {
+                "fontSize": 34,
+                "letterSpacing": 0.25,
+                "lineHeight": 34,
+              },
+              "headingOne": Object {
+                "fontSize": 96,
+                "fontWeight": "300",
+                "letterSpacing": -1.5,
+                "lineHeight": 96,
+              },
+              "headingSix": Object {
+                "fontSize": 20,
+                "fontWeight": "500",
+                "letterSpacing": 0.15,
+                "lineHeight": 20,
+              },
+              "headingThree": Object {
+                "fontSize": 48,
+                "lineHeight": 48,
+              },
+              "headingTwo": Object {
+                "fontSize": 60,
+                "fontWeight": "300",
+                "letterSpacing": -0.5,
+                "lineHeight": 60,
+              },
+              "outlinedButton": Object {
+                "borderColor": "rgba(0,0,0,.29)",
+                "borderWidth": 0.5,
+                "paddingHorizontal": 16,
+              },
+              "overline": Object {
+                "fontSize": 10,
+                "letterSpacing": 1.5,
+                "lineHeight": 10,
+                "textTransform": "uppercase",
+              },
+              "paper": Object {
+                "backgroundColor": "white",
+                "borderRadius": 2,
+              },
+              "primary": Object {
+                "dark": "#005cb2",
+                "light": "#6ab7ff",
+                "main": "#1e88e5",
+              },
+              "searchBar": Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255,255,255,1)",
+                "flexDirection": "row",
+                "height": 56,
+                "paddingHorizontal": 16,
+                "width": "100%",
+              },
+              "searchBarNavigationIcon": Object {
+                "color": "black",
+                "size": 24,
+              },
+              "searchBarcloseIcon": Object {
+                "color": "black",
+                "size": 24,
+              },
+              "searchInput": Object {
+                "flex": 1,
+                "fontSize": 16,
+                "height": 30,
+                "marginLeft": 8,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 0,
+                  "width": 0,
+                },
+                "shadowOpacity": 0,
+                "shadowRadius": 1,
+              },
+              "secondary": Object {
+                "dark": "#c51162",
+                "light": "#ff4081",
+                "main": "#f50057",
+              },
+              "subtitleOne": Object {
+                "fontSize": 16,
+                "letterSpacing": 0.15,
+                "lineHeight": 16,
+              },
+              "subtitleTwo": Object {
+                "fontSize": 14,
+                "fontWeight": "500",
+                "letterSpacing": 0.1,
+                "lineHeight": 14,
+              },
+              "text": Object {},
+              "textColor": Object {
+                "disabled": "rgba(0, 0, 0, 0.38)",
+                "hint": "rgba(0, 0, 0, 0.38)",
+                "primary": "rgba(0, 0, 0, 0.87)",
+                "secondary": "rgba(0, 0, 0, 0.54)",
+              },
+            }
+          }
+        >
+          
+        </Text>
+      </View>
     </View>
-  </View>
-  <View
-    accessible={true}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={
-      Object {
-        "opacity": 1,
-      }
-    }
-  >
     <View
-      elevation={2}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 2,
-          "margin": 8,
-          "padding": 8,
-          "shadowColor": "#000",
-          "shadowOffset": Object {
-            "height": 2,
-            "width": 0,
-          },
-          "shadowOpacity": 0.23,
-          "shadowRadius": 2.62,
+          "opacity": 1,
         }
       }
     >
-      <Text
+      <View
+        elevation={2}
         style={
-          Array [
-            Object {},
-            Object {
-              "fontSize": 20,
-              "fontWeight": "500",
-              "letterSpacing": 0.15,
-              "lineHeight": 20,
-            },
-            Object {
-              "color": "rgba(0, 0, 0, 0.87)",
-              "marginBottom": 0,
-              "textAlign": "left",
-            },
-            Object {
-              "marginTop": 5,
-            },
-          ]
-        }
-        text="Node 2"
-        type={6}
-      >
-        Node 2
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {},
-            Object {
-              "fontSize": 12,
-              "letterSpacing": 0.4,
-              "lineHeight": 12,
-            },
-            Object {
-              "color": "#929aab",
-              "marginBottom": 0,
-              "textAlign": "left",
-            },
-            Object {
-              "marginTop": 5,
-            },
-          ]
-        }
-        text="https://secret-lowlands-62331.herokuapp.com"
-      >
-        https://secret-lowlands-62331.herokuapp.com
-      </Text>
-      <Text
-        allowFontScaling={false}
-        pointerEvents="none"
-        style={
-          Array [
-            Object {
-              "color": "#929aab",
-              "fontSize": 24,
-            },
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-              },
-              Object {
-                "position": "absolute",
-                "right": 10,
-                "top": 5,
-              },
-            ],
-            Object {
-              "fontFamily": "Material Icons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-            Object {},
-          ]
-        }
-        theme={
           Object {
-            "action": Object {
-              "active": "rgba(0, 0, 0, 0.54)",
-              "disabled": "rgba(0, 0, 0, 0.26)",
-              "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+            "backgroundColor": "white",
+            "borderRadius": 2,
+            "marginHorizontal": 30,
+            "marginVertical": 10,
+            "padding": 10,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
             },
-            "background": Object {
-              "default": "#fafafa",
-            },
-            "bodyText": Object {
-              "fontSize": 16,
-              "letterSpacing": 0.5,
-              "lineHeight": 16,
-            },
-            "bodyTextTwo": Object {
-              "fontSize": 14,
-              "letterSpacing": 0.25,
-              "lineHeight": 14,
-            },
-            "button": Object {
-              "borderRadius": 4,
-              "padding": 8,
-            },
-            "buttonText": Object {
-              "color": "#2196f3",
-              "fontSize": 14,
-              "fontWeight": "500",
-              "letterSpacing": 0.5,
-            },
-            "caption": Object {
-              "fontSize": 12,
-              "letterSpacing": 0.4,
-              "lineHeight": 12,
-            },
-            "containedButton": Object {
-              "backgroundColor": "#2196f3",
-              "paddingHorizontal": 16,
-            },
-            "divider": Object {
-              "backgroundColor": "rgba(0,0,0,.12)",
-              "width": "100%",
-            },
-            "drawer": Object {
-              "backgroundColor": "white",
-              "borderRightColor": "rgba(0,0,0,.12)",
-              "borderRightWidth": 1,
-              "borderStyle": "solid",
-              "position": "absolute",
-              "zIndex": 100,
-            },
-            "drawerHeader": Object {
-              "borderBottomColor": "rgba(0,0,0,.12)",
-              "borderBottomWidth": 0.5,
-              "paddingHorizontal": 16,
-              "paddingVertical": 18,
-            },
-            "drawerHeaderAvatarContainer": Object {
-              "marginBottom": 20,
-            },
-            "drawerHeaderSubtitle": Object {
-              "color": "rgba(0,0,0,.67)",
-              "fontSize": 12,
-              "marginTop": 4,
-            },
-            "drawerHeaderTitle": Object {
-              "color": "rgba(0,0,0,.87)",
-              "fontSize": 20,
-              "fontWeight": "500",
-            },
-            "drawerItem": Object {
-              "alignItems": "center",
-              "backgroundColor": "transparent",
-              "borderRadius": 4,
-              "flexDirection": "row",
-              "height": 40,
-              "paddingHorizontal": 8,
-              "zIndex": 10,
-            },
-            "drawerItemActive": Object {
-              "backgroundColor": "rgba(30, 136, 229, .2)",
-              "color": "#1e88e5",
-            },
-            "drawerItemIcon": Object {
-              "color": "grey",
-              "size": 20,
-            },
-            "drawerItemText": Object {
-              "color": "rgba(0,0,0,.87)",
-              "fontSize": 14,
-              "fontWeight": "500",
-              "zIndex": 10,
-            },
-            "error": Object {
-              "dark": "#d32f2f",
-              "light": "#e57373",
-              "main": "#f44336",
-            },
-            "headingFive": Object {
-              "fontSize": 24,
-              "lineHeight": 24,
-            },
-            "headingFour": Object {
-              "fontSize": 34,
-              "letterSpacing": 0.25,
-              "lineHeight": 34,
-            },
-            "headingOne": Object {
-              "fontSize": 96,
-              "fontWeight": "300",
-              "letterSpacing": -1.5,
-              "lineHeight": 96,
-            },
-            "headingSix": Object {
-              "fontSize": 20,
-              "fontWeight": "500",
-              "letterSpacing": 0.15,
-              "lineHeight": 20,
-            },
-            "headingThree": Object {
-              "fontSize": 48,
-              "lineHeight": 48,
-            },
-            "headingTwo": Object {
-              "fontSize": 60,
-              "fontWeight": "300",
-              "letterSpacing": -0.5,
-              "lineHeight": 60,
-            },
-            "outlinedButton": Object {
-              "borderColor": "rgba(0,0,0,.29)",
-              "borderWidth": 0.5,
-              "paddingHorizontal": 16,
-            },
-            "overline": Object {
-              "fontSize": 10,
-              "letterSpacing": 1.5,
-              "lineHeight": 10,
-              "textTransform": "uppercase",
-            },
-            "paper": Object {
-              "backgroundColor": "white",
-              "borderRadius": 2,
-            },
-            "primary": Object {
-              "dark": "#005cb2",
-              "light": "#6ab7ff",
-              "main": "#1e88e5",
-            },
-            "searchBar": Object {
-              "alignItems": "center",
-              "backgroundColor": "rgba(255,255,255,1)",
-              "flexDirection": "row",
-              "height": 56,
-              "paddingHorizontal": 16,
-              "width": "100%",
-            },
-            "searchBarNavigationIcon": Object {
-              "color": "black",
-              "size": 24,
-            },
-            "searchBarcloseIcon": Object {
-              "color": "black",
-              "size": 24,
-            },
-            "searchInput": Object {
-              "flex": 1,
-              "fontSize": 16,
-              "height": 30,
-              "marginLeft": 8,
-              "shadowColor": "#000",
-              "shadowOffset": Object {
-                "height": 0,
-                "width": 0,
-              },
-              "shadowOpacity": 0,
-              "shadowRadius": 1,
-            },
-            "secondary": Object {
-              "dark": "#c51162",
-              "light": "#ff4081",
-              "main": "#f50057",
-            },
-            "subtitleOne": Object {
-              "fontSize": 16,
-              "letterSpacing": 0.15,
-              "lineHeight": 16,
-            },
-            "subtitleTwo": Object {
-              "fontSize": 14,
-              "fontWeight": "500",
-              "letterSpacing": 0.1,
-              "lineHeight": 14,
-            },
-            "text": Object {},
-            "textColor": Object {
-              "disabled": "rgba(0, 0, 0, 0.38)",
-              "hint": "rgba(0, 0, 0, 0.38)",
-              "primary": "rgba(0, 0, 0, 0.87)",
-              "secondary": "rgba(0, 0, 0, 0.54)",
-            },
+            "shadowOpacity": 0.23,
+            "shadowRadius": 2.62,
           }
         }
       >
-        
-      </Text>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingEnd": 30,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {},
+                undefined,
+                Object {
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "marginBottom": 0,
+                  "textAlign": "left",
+                },
+                Object {
+                  "color": "#263238",
+                  "marginTop": 5,
+                },
+              ]
+            }
+            text="Node 2"
+            type={6}
+          >
+            Node 2
+          </Text>
+          <View
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#D94238",
+                    "fontSize": 30,
+                  },
+                  undefined,
+                  Object {
+                    "fontFamily": "Entypo",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {},
+                  undefined,
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "marginBottom": 0,
+                    "textAlign": "left",
+                  },
+                  Object {
+                    "color": "#8a9094",
+                    "fontSize": 12,
+                    "left": -7,
+                    "letterSpacing": 1,
+                  },
+                ]
+              }
+              text="OFFLINE"
+              type={6}
+            >
+              OFFLINE
+            </Text>
+          </View>
+        </View>
+        <Text
+          style={
+            Array [
+              Object {},
+              Object {
+                "fontSize": 12,
+                "letterSpacing": 0.4,
+                "lineHeight": 12,
+              },
+              Object {
+                "color": "#929aab",
+                "marginBottom": 0,
+                "textAlign": "left",
+              },
+              Object {
+                "color": "#8a9094",
+                "marginTop": 5,
+              },
+            ]
+          }
+          text="https://secret-lowlands-62331.herokuapp.com"
+        >
+          https://secret-lowlands-62331.herokuapp.com
+        </Text>
+        <Text
+          allowFontScaling={false}
+          pointerEvents="none"
+          style={
+            Array [
+              Object {
+                "color": "#8a9094",
+                "fontSize": 24,
+              },
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                },
+                Object {
+                  "position": "absolute",
+                  "right": 10,
+                  "top": 20,
+                },
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+          theme={
+            Object {
+              "action": Object {
+                "active": "rgba(0, 0, 0, 0.54)",
+                "disabled": "rgba(0, 0, 0, 0.26)",
+                "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                "hover": "rgba(0, 0, 0, 0.08)",
+                "hoverOpacity": 0.08,
+                "selected": "rgba(0, 0, 0, 0.14)",
+              },
+              "background": Object {
+                "default": "#fafafa",
+              },
+              "bodyText": Object {
+                "fontSize": 16,
+                "letterSpacing": 0.5,
+                "lineHeight": 16,
+              },
+              "bodyTextTwo": Object {
+                "fontSize": 14,
+                "letterSpacing": 0.25,
+                "lineHeight": 14,
+              },
+              "button": Object {
+                "borderRadius": 4,
+                "padding": 8,
+              },
+              "buttonText": Object {
+                "color": "#2196f3",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "letterSpacing": 0.5,
+              },
+              "caption": Object {
+                "fontSize": 12,
+                "letterSpacing": 0.4,
+                "lineHeight": 12,
+              },
+              "containedButton": Object {
+                "backgroundColor": "#2196f3",
+                "paddingHorizontal": 16,
+              },
+              "divider": Object {
+                "backgroundColor": "rgba(0,0,0,.12)",
+                "width": "100%",
+              },
+              "drawer": Object {
+                "backgroundColor": "white",
+                "borderRightColor": "rgba(0,0,0,.12)",
+                "borderRightWidth": 1,
+                "borderStyle": "solid",
+                "position": "absolute",
+                "zIndex": 100,
+              },
+              "drawerHeader": Object {
+                "borderBottomColor": "rgba(0,0,0,.12)",
+                "borderBottomWidth": 0.5,
+                "paddingHorizontal": 16,
+                "paddingVertical": 18,
+              },
+              "drawerHeaderAvatarContainer": Object {
+                "marginBottom": 20,
+              },
+              "drawerHeaderSubtitle": Object {
+                "color": "rgba(0,0,0,.67)",
+                "fontSize": 12,
+                "marginTop": 4,
+              },
+              "drawerHeaderTitle": Object {
+                "color": "rgba(0,0,0,.87)",
+                "fontSize": 20,
+                "fontWeight": "500",
+              },
+              "drawerItem": Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderRadius": 4,
+                "flexDirection": "row",
+                "height": 40,
+                "paddingHorizontal": 8,
+                "zIndex": 10,
+              },
+              "drawerItemActive": Object {
+                "backgroundColor": "rgba(30, 136, 229, .2)",
+                "color": "#1e88e5",
+              },
+              "drawerItemIcon": Object {
+                "color": "grey",
+                "size": 20,
+              },
+              "drawerItemText": Object {
+                "color": "rgba(0,0,0,.87)",
+                "fontSize": 14,
+                "fontWeight": "500",
+                "zIndex": 10,
+              },
+              "error": Object {
+                "dark": "#d32f2f",
+                "light": "#e57373",
+                "main": "#f44336",
+              },
+              "headingFive": Object {
+                "fontSize": 24,
+                "lineHeight": 24,
+              },
+              "headingFour": Object {
+                "fontSize": 34,
+                "letterSpacing": 0.25,
+                "lineHeight": 34,
+              },
+              "headingOne": Object {
+                "fontSize": 96,
+                "fontWeight": "300",
+                "letterSpacing": -1.5,
+                "lineHeight": 96,
+              },
+              "headingSix": Object {
+                "fontSize": 20,
+                "fontWeight": "500",
+                "letterSpacing": 0.15,
+                "lineHeight": 20,
+              },
+              "headingThree": Object {
+                "fontSize": 48,
+                "lineHeight": 48,
+              },
+              "headingTwo": Object {
+                "fontSize": 60,
+                "fontWeight": "300",
+                "letterSpacing": -0.5,
+                "lineHeight": 60,
+              },
+              "outlinedButton": Object {
+                "borderColor": "rgba(0,0,0,.29)",
+                "borderWidth": 0.5,
+                "paddingHorizontal": 16,
+              },
+              "overline": Object {
+                "fontSize": 10,
+                "letterSpacing": 1.5,
+                "lineHeight": 10,
+                "textTransform": "uppercase",
+              },
+              "paper": Object {
+                "backgroundColor": "white",
+                "borderRadius": 2,
+              },
+              "primary": Object {
+                "dark": "#005cb2",
+                "light": "#6ab7ff",
+                "main": "#1e88e5",
+              },
+              "searchBar": Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255,255,255,1)",
+                "flexDirection": "row",
+                "height": 56,
+                "paddingHorizontal": 16,
+                "width": "100%",
+              },
+              "searchBarNavigationIcon": Object {
+                "color": "black",
+                "size": 24,
+              },
+              "searchBarcloseIcon": Object {
+                "color": "black",
+                "size": 24,
+              },
+              "searchInput": Object {
+                "flex": 1,
+                "fontSize": 16,
+                "height": 30,
+                "marginLeft": 8,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 0,
+                  "width": 0,
+                },
+                "shadowOpacity": 0,
+                "shadowRadius": 1,
+              },
+              "secondary": Object {
+                "dark": "#c51162",
+                "light": "#ff4081",
+                "main": "#f50057",
+              },
+              "subtitleOne": Object {
+                "fontSize": 16,
+                "letterSpacing": 0.15,
+                "lineHeight": 16,
+              },
+              "subtitleTwo": Object {
+                "fontSize": 14,
+                "fontWeight": "500",
+                "letterSpacing": 0.1,
+                "lineHeight": 14,
+              },
+              "text": Object {},
+              "textColor": Object {
+                "disabled": "rgba(0, 0, 0, 0.38)",
+                "hint": "rgba(0, 0, 0, 0.38)",
+                "primary": "rgba(0, 0, 0, 0.87)",
+                "secondary": "rgba(0, 0, 0, 0.54)",
+              },
+            }
+          }
+        >
+          
+        </Text>
+      </View>
     </View>
   </View>
-</View>
+</RCTScrollView>
 `;
